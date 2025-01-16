@@ -1,0 +1,24 @@
+@charset "UTF-8";
+    /*
+    ID EM HTML = # EM CSS
+    CLASS EM HTML = . EM CSS
+    */
+body {
+    background-color: rgb(123, 226, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#principal {
+        background-color: rgb(0, 109, 9);
+        color: white;
+}
+
+.pilha {
+    font-style: italic;
+}
+
+.lider {
+    background-color: rgb(0, 109, 9);
+    color: white;
+}

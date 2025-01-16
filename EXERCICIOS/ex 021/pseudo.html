@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: yellow;
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        div > p {
+            display: none;
+        }
+        .h:hover > p {
+            display: block;
+            color: white;
+            font-size: 50px;
+        }
+
+        .t:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">PSEUDO CLASSES</h1>
+    <div class="t">01
+        <p>ACHOUUU</p>
+    </div>
+    <div class="t">02</div>
+    <div class="t">03</div>
+</body>
+</html>
