@@ -91,11 +91,12 @@ nav > a:hover {
     padding-top: 20px;
 }
 #faleconosco {
-    padding: 20px;
+    padding-top: 20px;
     display: block;
     margin: auto;
-    min-width: 35%;
-    max-width: 35%;
+    min-width: 150px;
+    max-width: 250px;
+    padding-bottom: 20px;
 }
 img {
     width: 100%;
