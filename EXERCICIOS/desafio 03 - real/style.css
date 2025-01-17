@@ -94,7 +94,8 @@ nav > a:hover {
     padding: 20px;
     display: block;
     margin: auto;
-    width: 25%;
+    min-width: 35%;
+    max-width: 35%;
 }
 img {
     width: 100%;
