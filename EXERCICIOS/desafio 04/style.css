@@ -16,7 +16,7 @@
 
 header > h2 {
     line-height: 60px;
-    padding-top: 40px;
+    padding-top: 35px;
     color: white;
     margin: auto;
     font-family: 'titulo';
@@ -47,6 +47,7 @@ header {
 article {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    font-size: 18px;
 }
 .branco {
     padding-top: 2vh;
