@@ -43,14 +43,14 @@ header {
     max-height: 250px;
     min-height: 180px;
 }
-    
+
 article {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 .branco {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     padding-left: 25px;
     line-height: 25px;
     
@@ -63,8 +63,8 @@ article {
 .preto {
     color: white;
     background-color: rgb(48, 47, 47);
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     padding-left: 25px;
     line-height: 25px;
 }
