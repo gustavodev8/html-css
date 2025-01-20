@@ -43,12 +43,36 @@ header {
     max-height: 250px;
     min-height: 180px;
 }
-
+    
 article {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
-
+.branco {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 25px;
+    line-height: 25px;
+    
+}
+.subbranco {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 5px;
+}
+.preto {
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 25px;
+    line-height: 25px;
+}
+.subpreto {
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 300px;
+    padding: 5px;
+}
 main {
 
 }
@@ -56,5 +80,5 @@ main {
 article > p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
+    line-height: 25px;
 }
