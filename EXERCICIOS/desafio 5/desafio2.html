@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border: 1px solid black;
+            width: 600px;
+            height: 200px;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td, th {
+            padding: 4px;
+            border: 2px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+        caption {
+            font-size: large;
+            padding: 10px;
+            font-weight: bold;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        .tilt {
+            background-color: gray;
+            color: white;
+        }
+        div {
+            overflow-x: auto;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1> conversação</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates maiores corrupti ratione nam minus incidunt eligendi sed aliquam quis est? Tempore quos, magni aspernatur minus totam consectetur pariatur ipsam ullam?</p>
+    <div>
+        <table>
+            <caption> Nota do ALuno</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Area</th>
+                    <th rowspan="2">Disciplina</th>
+                    <th colspan="2">Notas</th>
+                    <th rowspan="2">Media</th>
+                </tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4"><strong>Exatas</strong></td>
+                    <td>Matematica</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Quimica</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Fisica</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Geometria</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr class="tilt">
+                    <td colspan="4"><strong>Media De Exatas</strong></td>
+                    <td> 0.0 </td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Humanas</strong></td>
+                    <td>Literatura</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Gramatica</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr class="tilt">
+                    <td colspan="4"><strong>Media De Humanas</strong></td>
+                    <td> 0.0 </td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
