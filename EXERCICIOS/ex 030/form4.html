@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Email e Telefone</h1>
+        <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+        <legend>Dados sensiveis</legend>
+        <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">telefone</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sex" id="sexf"> <label for="sexf">Feminino</label> <br>
+                <input type="radio" name="sex" id="sexm">  <label for="sexm">Masculino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <label for="ifut">Futebol</label> <input type="checkbox" name="futebol" id="ifut">
+            </p>
+            <p>
+                <label for="ihand">Handbol</label> <input type="checkbox" name="Handebol" id="ihand">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        </form>
+
+</body>
+</html>
