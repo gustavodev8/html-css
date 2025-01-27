@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+article::after {
+    content: "Esse site foi impresso no site de www.gustavu.dev8.io.com.br";
+}
