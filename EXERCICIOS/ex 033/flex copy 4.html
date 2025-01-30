@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div.container {
+            background-color: yellow;
+            display: flex;
+            flex-flow: row wrap; /* SERVE SOMENTE PARA PAIS, PORTATORES DE DISPLAY FLEX*/
+            height: 200px;
+            align-items: center;
+        }
+        div.item{
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            padding: 20px;
+            align-self: flex-start; /* SERVE SOMENTE PARA ITENS*/
+        }
+        div.item2{
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            padding: 20px;
+            align-self:center; /* SERVE SOMENTE PARA ITENS*/
+        }
+        div.item7{
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            padding: 20px;
+            align-self:auto; /* HERDA AS CONFIG DO PAI EM "ALIGN ITENS  "*/
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="item">a</div>
+        <div class="item7">z</div>
+        <div class="item2" style="order: 5;">x</div>
+        <div class="item" style="order: 9;">i</div>
+        <div class="item" style="order: 10;">t</div>
+        <div class="item">k</div>
+        <div class="item">r</div>
+        <div class="item">b</div>
+
+    </div>
+</body>
+
+</html>
