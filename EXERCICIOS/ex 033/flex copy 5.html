@@ -9,29 +9,26 @@
             background-color: yellow;
             display: flex;
             flex-flow: row wrap; /* SERVE SOMENTE PARA PAIS, PORTATORES DE DISPLAY FLEX*/
-            height: 200px;
-
-
+            height: 400px;
         }
         div.item{
             border: 2px solid black;
             background-color: red;
             text-align: center;
-            padding: 20px;
-            flex-basis: 200px;
 
+            flex-basis: 200px;
+            flex-shrink: 0;
+            flex-grow: 1;                       /*FLEX SHRINK PODE ENCOLHER VEM COM 1  / FLEX GROW PODE CRESCER VEM COM 0*/
         }
         div.item2{
             border: 2px solid black;
             background-color: red;
             text-align: center;
-            padding: 20px;
         }
         div.item7{
             border: 2px solid black;
             background-color: red;
             text-align: center;
-            padding: 20px;
         }
     </style>
     <title>Document</title>
@@ -41,13 +38,11 @@
     <div class="container">
 
         <div class="item">a</div>
-        <div class="item7">qwdqwdqwd</div>
-        <div class="item2" style="order: 5;">KKKKKKKKKKKKKKKKKKKK</div>
+        <div class="item7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus fugiat velit delectus, natus magni dolorem nihil possimus non ut consequuntur, aut accusantium illo laborum. Nisi doloribus et voluptate nam?</div>
+        <div class="item2" style="order: 5;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nemo explicabo expedita cupiditate placeat, commodi nam similique doloremque quia tenetur magnam possimus recusandae repellendus. Ea sit eum iste veniam saepe.</div>
         <div class="item" style="order: 9;">qwjdhqwd</div>
         <div class="item" style="order: 10;">t</div>
-        <div class="item">k</div>
-        <div class="item">r</div>
-        <div class="item">b</div>
+
 
     </div>
 </body>
