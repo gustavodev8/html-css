@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@media screen and (max-width: 992px) and (min-width: 768px) { 
+    body, html {
+        background-color: rgba(0, 128, 0, 0.274);
+        width: 100vw;
+        height: 100vh;
+    }
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }  
+    header h1 {
+
+        text-align: left;
+        flex: 0 0 150px;    
+    }
+
+    header > div > ul {
+        
+        padding: 4px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+
+    header > div > ul > li {
+        border-radius: 10px;
+        width: 80px;
+        flex: 0 1 80px;
+        padding: 4px;
+        text-align: center;
+        margin-top: 4.5px;
+        margin-left: 9px;
+        margin-bottom: 4px;
+        background-color: yellow;
+        text-decoration: none;
+    }
+    
+    header > div > ul > li > a {
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    
+}
